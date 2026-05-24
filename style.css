@@ -395,6 +395,25 @@
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px #c82b60;
 }
 
+/* FOOTER COPYRIGHT */
+#copyright {
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+  text-align: center;
+
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+
+  color: rgba(255,255,255,0.35);
+
+  letter-spacing: 1px;
+
+  z-index: 30;
+
+  text-shadow: 0 0 8px rgba(255,255,255,0.08);
+}
+
 /* ANIMACIONES CORREGIDAS */
 @keyframes hover {
   0%, 100% { transform: translateY(0); }
